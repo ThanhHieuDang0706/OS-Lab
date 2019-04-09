@@ -1,0 +1,5 @@
+In which cases we should use alined_malloc() instead of standard malloc?
+_
+
+How can we increase the size of heap in a running process?
+_We can use dynamic memory allocation functions like malloc() or realloc() in C or sbrk() system call on Linux to increment the break point in bytes.
