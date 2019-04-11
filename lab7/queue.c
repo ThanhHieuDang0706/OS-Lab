@@ -23,6 +23,17 @@ struct pcb_t * de_queue(struct pqueue_t * q) {
 	// condition
 	
 	// YOUR CODE HERE
+	
+	// mutex = PTHREAD_MUTEX_INITIALIZER;
+	// pthread_mutex_init(&mutex);
+	// pthread_mutex_lock(&mutex);
+
+	// proc = q->head->data;
+	// struct pqueue_t temp;
+
+
+
+	
 
 	return proc;
 }
